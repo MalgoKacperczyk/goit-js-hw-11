@@ -9,6 +9,8 @@ const form = document.getElementById('search-form');
 const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
 
+loadMoreBtn.style.display = 'none';
+
 let page = 1;
 let searchQuery = '';
 

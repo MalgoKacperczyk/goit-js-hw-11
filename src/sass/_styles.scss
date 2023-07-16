@@ -1,5 +1,5 @@
 .load-more {
-  background-color: blue;
+  background-color: rgb(22, 38, 163);
   color: white;
   padding: 10px 20px;
   border: none;
@@ -9,13 +9,16 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   gap: 10px;
 }
 .search-form {
-  padding: 30 100;
-  position: absolute;
-  right: 50%;
+  padding: 10;
+  width: 100%;
   background-color: rgb(107, 173, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .submit {
   background-color: rgb(22, 38, 163);
@@ -31,4 +34,19 @@
   border-radius: 5px;
   cursor: pointer;
   border-color: lightblue;
+}
+.form-wrapper {
+  display: flex;
+}
+.info {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
